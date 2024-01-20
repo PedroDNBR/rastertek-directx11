@@ -18,6 +18,17 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ApplicationClass.cpp" />
+    <ClCompile Include="InputClass.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="SystemClass.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ApplicationClass.h" />
+    <ClInclude Include="InputClass.h" />
+    <ClInclude Include="SystemClass.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
