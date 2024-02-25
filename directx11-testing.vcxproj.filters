@@ -19,6 +19,9 @@
     <Filter Include="Data">
       <UniqueIdentifier>{fd8dff88-aaf4-4163-b14a-cbed9502a1c3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Models">
+      <UniqueIdentifier>{cd089540-9b14-468c-851e-825ac3a7d898}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ApplicationClass.cpp">
@@ -118,5 +121,10 @@
     <Image Include="stone01.tga">
       <Filter>Data</Filter>
     </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Cube.txt">
+      <Filter>Models</Filter>
+    </Text>
   </ItemGroup>
 </Project>
